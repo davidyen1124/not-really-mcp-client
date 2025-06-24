@@ -53,6 +53,39 @@ node src/mcp-client-cli.js demo
 - Authentication via tokens stored in lock files
 - Protocol version: 2024-11-05
 
+## Release Process
+
+This project uses semantic-release for automated versioning and publishing. Use conventional commit messages:
+
+**Commit Message Format:**
+```
+<type>(<scope>): <subject>
+
+<body>
+
+<footer>
+```
+
+**Types:**
+- `feat`: New feature (minor version bump)
+- `fix`: Bug fix (patch version bump)
+- `docs`: Documentation changes
+- `style`: Code style changes (formatting, etc.)
+- `refactor`: Code refactoring
+- `test`: Adding or updating tests
+- `chore`: Maintenance tasks
+
+**Breaking Changes:**
+- Add `BREAKING CHANGE:` in footer or `!` after type (major version bump)
+- Example: `feat!: change API structure`
+
+**Examples:**
+```bash
+git commit -m "feat: add new authentication method"
+git commit -m "fix: resolve connection timeout issue"  
+git commit -m "docs: update README with new examples"
+```
+
 ## Key Classes and Methods
 
 **MCPClient:**
