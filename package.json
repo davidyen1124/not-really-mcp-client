@@ -1,6 +1,6 @@
 {
   "name": "not-really-mcp-client",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A confusingly-named client that connects to Claude Code's VS Code bridge, not actually MCP",
   "main": "src/mcp-client.js",
   "bin": {
