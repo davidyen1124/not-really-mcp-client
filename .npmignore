@@ -1,0 +1,12 @@
+# Development files
+.git
+.gitignore
+*.log
+.DS_Store
+
+# Keep package small
+node_modules/
+.npm/
+
+# Optional - keep or remove based on preference
+# demo.js

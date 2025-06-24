@@ -1,0 +1,39 @@
+{
+  "name": "not-really-mcp-client",
+  "version": "1.0.0",
+  "description": "A confusingly-named client that connects to Claude Code's VS Code bridge, not actually MCP",
+  "main": "src/mcp-client.js",
+  "bin": {
+    "mcp-client": "./src/mcp-client-cli.js"
+  },
+  "scripts": {
+    "start": "node src/mcp-client-cli.js demo",
+    "shell": "node src/mcp-client-cli.js shell",
+    "demo": "node src/mcp-client-cli.js demo",
+    "interactive": "node src/mcp-client-cli.js shell"
+  },
+  "dependencies": {
+    "ws": "^8.14.2",
+    "uuid": "^9.0.1"
+  },
+  "keywords": [
+    "claude",
+    "mcp",
+    "vscode",
+    "websocket",
+    "json-rpc"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/claude-mcp-client"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/claude-mcp-client/issues"
+  },
+  "homepage": "https://github.com/yourusername/claude-mcp-client#readme",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
