@@ -6,6 +6,7 @@
 ![Coverage](https://img.shields.io/badge/coverage-0%25-critical)
 ![Mood](https://img.shields.io/badge/mood-questionable-yellow)
 ![Coffee Consumed](https://img.shields.io/badge/coffee%20consumed-∞-brown)
+![NPM Version](https://img.shields.io/npm/v/not-really-mcp-client)
 ![Bugs](https://img.shields.io/badge/bugs-yes-green)
 ![Works On My Machine](https://img.shields.io/badge/works%20on-my%20machine-blue)
 ![Maintained](https://img.shields.io/badge/maintained-when%20I%20feel%20like%20it-lightgrey)
